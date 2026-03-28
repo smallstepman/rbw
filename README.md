@@ -58,6 +58,10 @@ You can install it using `sudo dnf install rbw`.
 [NixOS repository](https://search.nixos.org/packages?show=rbw). You can try
 it out via `nix-shell -p rbw`.
 
+For local development from a checkout, this repository also includes a flake,
+so you can run `nix build` to build it or `nix run` to run the default `rbw`
+package from the current source tree.
+
 ### Alpine
 
 `rbw` is available in the [community repository](https://pkgs.alpinelinux.org/packages?name=rbw). You can install it with `apk add rbw`.
